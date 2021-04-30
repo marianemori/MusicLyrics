@@ -10,7 +10,7 @@ const Search = ({ onInputChange, searchSong }) => {
           name="songInput"
           id="songInput"
           onChange={onInputChange}
-          placeholder="Digite o nome da música"
+          placeholder="Pesquise o nome da música"
           required
         />
       </div>
@@ -20,7 +20,7 @@ const Search = ({ onInputChange, searchSong }) => {
           name="artistInput"
           id="artistInput"
           onChange={onInputChange}
-          placeholder="Digite o nome do artista"
+          placeholder="Pesquise o nome do artista"
           required
         />
       </div>

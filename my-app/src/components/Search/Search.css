@@ -11,7 +11,7 @@ form div {
 }
 
 div:first-child {
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 
 input {
@@ -19,17 +19,17 @@ input {
   background: none;
   border: none;
   border-bottom: 2px solid #b34d4d;
-  padding: 0.3rem;
+  padding: 10px;
   font-size: 15px;
   text-align: center;
-  color: rgba(18, 35, 37, 0.85);
+  color:#413636;
 }
 
 button {
   width: 150px;
-  padding: 15px;
+  padding: 12px;
   margin: 50px;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 7px;
   border: none;
   background-color: #b34d4d;
@@ -38,4 +38,7 @@ button {
 
 button:hover {
   cursor: pointer;
+  color: #413636;
+  box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.39);
+
 }

@@ -8,32 +8,30 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
-  margin-bottom: 5rem;
+  padding: 25px;
+  margin-bottom: 70px;
   color: #ffffff;
 }
 
 .song {
   white-space: pre-line;
-  font-size: 1.6rem;
+  font-size: 17px;
   text-align: left;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
-.song::selection {
+.song::selection, .song-name::selection, .artist::selection{
   background: #b34d4d;
   color: #122325;
 }
 
 .song-name {
-  margin-top: 3.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
   font-size: 25px;
 }
 
 .artist {
   font-size: 20px;
-  margin-bottom: 3rem;
-  width: 90%;
-  padding-bottom: 2rem;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
 }
