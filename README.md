@@ -6,7 +6,7 @@ Técnicas Avançadas de Desenvolvimento de Software - 2021/1
 
 Dupla: Mariane Mori e Letizia P. Silva
 
-## Como executar a aplicação gerada:
+## Como executar a aplicação:
 
 - Dê um git clone: https://github.com/marianemori/MusicLyrics.git
  
