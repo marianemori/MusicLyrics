@@ -1,0 +1,39 @@
+.song-lyrics {
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 3px 7px 15px rgba(0, 0, 0, 0.39);
+  background: #413636;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  margin-bottom: 5rem;
+  color: #ffffff;
+}
+
+.song {
+  white-space: pre-line;
+  font-size: 1.6rem;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.song::selection {
+  background: #b34d4d;
+  color: #122325;
+}
+
+.song-name {
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+  font-size: 25px;
+}
+
+.artist {
+  font-size: 20px;
+  margin-bottom: 3rem;
+  width: 90%;
+  padding-bottom: 2rem;
+}

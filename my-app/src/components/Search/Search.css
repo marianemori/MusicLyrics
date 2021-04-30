@@ -1,0 +1,41 @@
+form {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form div {
+  min-width: 30%;
+}
+
+div:first-child {
+  margin-bottom: 40px;
+}
+
+input {
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #b34d4d;
+  padding: 0.3rem;
+  font-size: 15px;
+  text-align: center;
+  color: rgba(18, 35, 37, 0.85);
+}
+
+button {
+  width: 150px;
+  padding: 15px;
+  margin: 50px;
+  font-size: 16px;
+  border-radius: 7px;
+  border: none;
+  background-color: #b34d4d;
+  color: #FFF;
+}
+
+button:hover {
+  cursor: pointer;
+}
