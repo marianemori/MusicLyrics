@@ -11,6 +11,10 @@ Dupla: Mariane Mori e Letizia P. Silva
 - Dê um git clone: https://github.com/marianemori/MusicLyrics.git
  
 - Abra a pasta do projeto no VSCode
+
+```
+cd my-app
+```
  
 - Instale as dependências necessárias com o comando
 ```
