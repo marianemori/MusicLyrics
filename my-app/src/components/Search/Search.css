@@ -4,10 +4,16 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-content: center;
+  border-radius: 17%;
+  height: 35vh;
+  background-color: rgba(226, 226, 225, 0.459);
+  width: 27vw;
+  margin-left: 36vw;
 }
 
 form div {
-  min-width: 30%;
+  min-width: 50%;
 }
 
 div:first-child {
@@ -16,13 +22,17 @@ div:first-child {
 
 input {
   width: 100%;
-  background: none;
+  background: floralwhite;
   border: none;
-  border-bottom: 2px solid #b34d4d;
+  border: 1px solid #3fec28;
   padding: 10px;
   font-size: 15px;
   text-align: center;
-  color:#413636;
+  color: black;
+}
+
+#songInput{
+  margin-top: 30%;
 }
 
 button {
@@ -32,13 +42,12 @@ button {
   font-size: 14px;
   border-radius: 7px;
   border: none;
-  background-color: #b34d4d;
+  background-color: black;
   color: #FFF;
 }
 
 button:hover {
   cursor: pointer;
-  color: #413636;
+  color: #50dd3d;
   box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.39);
-
 }
