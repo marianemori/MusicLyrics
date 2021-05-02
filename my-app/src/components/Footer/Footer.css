@@ -1,6 +1,6 @@
 .footer {
-  background: #b34d4d;
-  color: white;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 1) 0%, rgb(46, 45, 45) 100%);
+  color: #50dd3d;
   font-size: 12px;
   padding: 15px;
   width: 100%;

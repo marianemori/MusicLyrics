@@ -45,7 +45,7 @@ class App extends Component {
     const { artistInput, songInput, songLyrics } = this.state;
 
     return (
-      <div>
+      <container>
         <Header />
         <Search
           onInputChange={this.onInputChange}
@@ -60,10 +60,10 @@ class App extends Component {
           )}
 
           {this.state.error && (
-            <p style={{ fontSize: "14px" }}>Não foi possível encontrar a música</p>
+            <p style={{ fontSize: "14px", color: "white" }}>Não foi possível encontrar a música</p>
           )}
           <Footer></Footer>
-      </div>
+      </container>
     );
   }
 }
